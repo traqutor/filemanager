@@ -7,6 +7,7 @@ import { normalizeResource } from './utils/common';
  * @returns {boolean}
  */
 function hasSignedIn() {
+  request.set('Authorization', 'Bearer ==================================================');
   return true;
 }
 
